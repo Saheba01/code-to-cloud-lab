@@ -1,0 +1,12 @@
+name: Microsoft Security DevOps
+on: [push, pull_request]
+jobs:
+  msdo:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: microsoft/security-devops-action@latest
+        id: msdo
+      - uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: ${{ steps.msdo.outputs.sarifFile }}
