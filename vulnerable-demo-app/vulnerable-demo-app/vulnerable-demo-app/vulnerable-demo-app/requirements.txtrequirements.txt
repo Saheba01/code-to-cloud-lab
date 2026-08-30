@@ -1,5 +1,5 @@
 Flask==0.12.2
 requests==2.6.0
-PyYAML==3.13
+PyYAML==5.4
 urllib3==1.24.1
 Jinja2==2.10
