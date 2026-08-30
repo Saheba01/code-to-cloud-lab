@@ -1,10 +1,1 @@
-"""
-WARNING: INTENTIONALLY VULNERABLE - for lab use only
-"""
-
-AZURE_STORAGE_CONNECTION_STRING = "REPLACE_WITH_FAKE_AZURE_STORAGE_CONNECTION_STRING"
-THIRD_PARTY_API_KEY = "REPLACE_WITH_FAKE_API_KEY"
-
-
-def get_connection_string():
-    return AZURE_STORAGE_CONNECTION_STRING
+AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=demo;AccountKey=ZmFrZWtleWZha2VrZXlmYWtla2V5ZmFrZWtleWZha2VrZXlmYWtla2V5PT0=;EndpointSuffix=core.windows.net"
